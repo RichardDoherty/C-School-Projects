@@ -1,0 +1,15 @@
+What decisions or assumptions did you make about how to design your program?
+
+In my program I assumed the highest class would be a would be my maze function, which contains a student and a vector of maze levels.  Each level will have two TAs and can have professor if a level is the top level in the maze. This general design I created affected how I had to access variables in higher or lower classes. This was especially a pain for trying to modify my student members from functions in my level class. Because the levels and student were in the same class I had to write extra accessors and modifiers to make the program work correctly. This added work but the design still makes the most sense to me.
+
+What was your test plan for your program?
+
+The test plan for my program was generally just to play the game. For the most part this method was not that bad because I disabled the TAs functions so that they would not ask the student for skills when I was testing the ladders and programming skill functions. I considered making a test txt file to test my functions but didn’t feel like it was super necessary. 
+
+How did your testing work out? What bugs did you uncover through testing? How did you fix those bugs? What problems or obstacles did you run into while you were developing your program? How did you resolve these?
+
+The testing worked fine. Some small bugs I had were not resetting the has skill member of my openspace objects when I pick up a skill. The only bug that really stumped me was a bug in my move function. My indexing in my array was off and on top of that my program was sometimes not working randomly when I reached my professor. I fixed the indexing but had some trouble with the professor function. It works most of the time but sometimes will send the user back to the start of the third level instead of the first.
+
+What resources were useful to you in solving problems you ran into? Were there helpful websites or Stack Overflow posts? What help did you get from the TAs and/or the Instructor? Were specific parts of the course notes helpful?
+
+My recitation TA was very helpful throughout the design process. Having two recitations for design work really helped with forming the overall design of my program. It was also very helpful to talk to other students in my recitation to see how they set up their programs.
