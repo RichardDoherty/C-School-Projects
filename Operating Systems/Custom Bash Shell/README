@@ -1,0 +1,7 @@
+smallsh.c 
+Programmed by: Richard Doherty
+
+To compile this program simply run:
+		gcc -o smallsh smallsh.c
+To execute the program run:
+		./smallsh
